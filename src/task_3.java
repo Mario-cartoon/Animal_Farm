@@ -1,4 +1,5 @@
 import java.math.*;
+import java.sql.SQLOutput;
 import java.util.Random;
 import java.lang.*;
 
@@ -39,6 +40,7 @@ public class task_3 {
 
     public static void main_title() {
         var s = String.format("Зоопарк: ");
+        System.out.println(s);
     }
 }
 
